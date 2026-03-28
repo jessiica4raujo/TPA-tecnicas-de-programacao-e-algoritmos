@@ -1,4 +1,4 @@
-package numeroInteiro;
+package prjtpa;
 import java.util.*;
 public class Temperaturas {
 	public static void main (String args[]) {
