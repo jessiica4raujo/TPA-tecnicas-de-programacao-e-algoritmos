@@ -1,4 +1,4 @@
-package lista3;
+package ifelse;
 
 import java.util.Scanner;
 
