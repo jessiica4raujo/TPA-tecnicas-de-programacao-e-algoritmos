@@ -1,14 +1,15 @@
 package prjAula01;
-
-public class CalculeMedia {
-	public static void main (String args[]) {
-		//declaração de variáveis
-		double nota1, nota2, media;
-		
-		nota1= 8;
-		nota2= 10;
-		media=(nota1+nota2)/2;
-		System.out.println ("Sua média é:" + media);
-	}
-
+import java.util.Scanner;
+public class tpajavaa {
+public static void main (String []args) {
+	Scanner ler = new Scanner (System.in);
+			double nota1, nota2, media;
+			System.out.println("Digite nota 1");
+			nota1= ler.nextDouble();
+			System.out.println("Digite nota 2");
+			nota2= ler.nextDouble();
+			media=(nota1+nota2)/2;
+			System.out.println("Sua média é " + media );
+	
+}
 }
